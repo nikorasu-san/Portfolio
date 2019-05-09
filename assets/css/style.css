@@ -2,13 +2,20 @@
     height: 100%;
 } */
 
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+
 .nav-wrapper {
     background-color: #38598b;
+    box-shadow: 3px 3px 3px black;
 }
 
-.name {
-    font-size: 3rem;
+.name, .desktop > li {
+    font-size: 2rem;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 5px 5px 5px black;
 }
+
 section,body,html {
     /* background-size: 100vh; */
     height: 100%;
@@ -26,12 +33,18 @@ section{
 
 #section1 {
     background-color: #113f67;
-    /* height: 100%; */
+    padding-top:0;
 }
-/* #img1{
+#img1{
     background-image: url("../images/IMG_6004.jpg");
     background-size: cover;
-} */
+    background-attachment: fixed;
+    height: 100vh;
+}
+#about_card {
+    margin-top: 15rem;
+}
+
 #section2 {
     background-color: #34699a;
 }
@@ -56,9 +69,17 @@ section{
     margin-left: 2%;
 } */
 
-.card-panel {
+.card-panel{
     background: #e7eaf6;
     color: #38598b!important;
+}
+
+.card-title {
+    background: #e7eaf6;
+    color: #38598b!important;
+    box-shadow: 0px 4px 10px #e7eaf6;
+    width: 100%!important;
+    padding: 0!important;
 }
 
 .abs {
@@ -71,6 +92,7 @@ section{
 
 p {
     overflow: auto;
+    color: #38598b;
 }
 
 /* .port-card {
@@ -82,7 +104,7 @@ img {
     height: 190px;
 }
 
-.card:hover {
+.project_card:hover {
     animation-name: pulse;
     animation-duration: 2.5s;
     cursor: -webkit-grab;
@@ -97,4 +119,45 @@ img {
     50%  {transform: scale(1.0); box-shadow: 0px 0px 0px}
     52% {transform: scale(1.10); box-shadow: 10px 10px 10px}
     55% {transform: scale(1.0); box-shadow: 0px 0px 0px}
+  }
+
+  @-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: initial; 
+  }
+
+  @media screen and (max-width: 500px) {
+    .name{
+        font-size: .9rem;
+    }
   }
