@@ -42,7 +42,8 @@ section{
     height: 100vh;
 }
 #about_card {
-    margin-top: 15rem;
+    margin-top: 10rem;
+    background-color: #e7eaf6f7;
 }
 
 #section2 {
@@ -109,6 +110,14 @@ img {
     animation-duration: 2.5s;
     cursor: -webkit-grab;
     animation-iteration-count: infinite;
+}
+
+.indicators {
+    bottom: -10px!important;
+}
+
+.carousel-fixed-item, .with-indicators {
+    bottom: 40px!important;
 }
 
 @keyframes pulse {
