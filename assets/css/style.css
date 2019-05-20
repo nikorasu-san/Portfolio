@@ -121,6 +121,11 @@ img {
     animation-iteration-count: infinite;
 }
 
+.card-content {
+    height: 150px;
+    overflow: auto
+}
+
 .indicators {
     bottom: -10px!important;
 }
