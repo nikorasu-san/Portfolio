@@ -20,6 +20,7 @@ section,body,html {
     /* background-size: 100vh; */
     height: 100%;
     color: white;
+    box-sizing: border-box;
 }
 
 .container {
@@ -88,7 +89,11 @@ section{
 }
 
 .card-action {
-    padding-bottom: 25px!important;
+    padding-bottom: 1px!important;
+}
+
+button {
+    width: 100%;
 }
 
 p {
@@ -116,8 +121,22 @@ img {
     bottom: -10px!important;
 }
 
+.indicator-item.active {
+    background-color: #38598b !important;
+}
+
 .carousel-fixed-item, .with-indicators {
     bottom: 40px!important;
+}
+
+.clear_card {
+    background-color: #0000;
+    -webkit-box-shadow: 0;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.resume_card    {
+    height: 70vh;
 }
 
 @keyframes pulse {
