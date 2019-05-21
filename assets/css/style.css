@@ -56,8 +56,31 @@ section{
 }
 
 #section4 {
-    background-color: #65c6c4;
+    /* background-color: #65c6c4; */
 }
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../images/turntable.png) no-repeat;
+    background-size: cover; 
+}
+
+#jams_card {
+    margin-top: 2rem;
+    background-color: #e7eaf6b3;
+}
+
 
 .pl,.sub-head{
     margin-left: 5%;
