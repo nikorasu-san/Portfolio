@@ -160,7 +160,7 @@ img {
     background-color: #38598b !important;
 }
 
-.carousel-fixed-item, .with-indicators {
+.carousel-fixed-item.with-indicators {
     bottom: 40px!important;
 }
 
@@ -222,6 +222,29 @@ img {
     animation-delay: 2s;
     animation-iteration-count: initial; 
   }
+
+@media screen and (max-width: 998px) {
+    .abs {
+        margin-top: 5rem;
+    }
+    .lower_container {
+        margin-top:15%;
+    }
+    .media_big {
+        display: none;
+    }
+
+    .media_small {
+        display: block;
+    }
+    .indicators {
+        bottom: 90%!important;
+    }
+    .pdf_button {
+        width: 50%;
+        left: 25%;
+    }
+}
 
   @media screen and (max-width: 500px) {
     .name{
