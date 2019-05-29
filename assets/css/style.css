@@ -10,7 +10,7 @@
     box-shadow: 3px 3px 3px black;
 }
 
-.name, .desktop > li {
+.name, .desktop > li, .abs {
     font-size: 2rem;
     font-family: 'Rock Salt', cursive;
     text-shadow: 5px 5px 5px black;
@@ -23,7 +23,7 @@ section,body,html {
     box-sizing: border-box;
 }
 
-.container {
+.about_container, .lower_container {
     padding-top: 10%;
     padding-bottom: 10%;
 }
@@ -55,9 +55,7 @@ section{
     background-color: #408ab4;
 }
 
-#section4 {
-    /* background-color: #65c6c4; */
-}
+
 
 video#bgvid { 
     position: fixed;
@@ -171,6 +169,10 @@ img {
     height: 70vh;
 }
 
+.media_small {
+    display: none;
+}
+
 @keyframes pulse {
     0%   {transform: scale(1.0); box-shadow: 0px 0px 0px}
     38%   {transform: scale(1.0); box-shadow: 0px 0px 0px}
@@ -219,5 +221,68 @@ img {
   @media screen and (max-width: 500px) {
     .name{
         font-size: .9rem;
+    }
+    .abs {
+        margin-top: 5rem;
+    }
+
+    #about_card {
+        height: 51vh;
+        overflow: auto;
+    }
+    #section2 {
+        height: 200vh;
+    }
+    .lower_container {
+        margin-top:40%;
+    }
+    .project_card {
+        height: 50vh;
+        overflow: scroll;
+    }
+
+    .card-content {
+        overflow: hidden;
+    }
+
+    #section3 {
+        height: 115vh;
+    }
+    .resume_card {
+        height: 80vh;
+        overflow:hidden;
+    }
+
+    .carousel {
+        height: 80vh;
+    overflow-y: scroll;
+    }
+
+    .media_big {
+        display: none;
+    }
+
+    .media_small {
+        display: block;
+    }
+    .indicators {
+        bottom: 90%!important;
+    }
+
+    .pdf_button {
+        width: 96%;
+        left: 3%;
+    }
+
+    video {
+        display:none;
+    }
+
+    #section4 {
+        background-color: #65c6c4;
+    }
+
+    #jams_card {
+        background-color: #e7eaf6;
     }
   }
