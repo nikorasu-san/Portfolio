@@ -60,7 +60,9 @@ section{
     background-color: #408ab4;
 }
 
-
+#section4 {
+    background-color: #65c6c447;
+}
 
 video#bgvid { 
     position: fixed;
@@ -224,13 +226,24 @@ img {
     animation-iteration-count: initial; 
   }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1030px) {
     .abs {
         margin-top: 5rem;
     }
     .lower_container {
         margin-top:15%;
     }
+
+    .resume_card {
+        height: 45vh;
+        overflow:hidden;
+    }
+
+    .carousel {
+        height: 45vh;
+    overflow-y: auto;
+    }
+
     .media_big {
         display: none;
     }
