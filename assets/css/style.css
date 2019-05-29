@@ -94,7 +94,7 @@ video#bgvid {
 }
 
 /* .sub-head {
-    margin-left: 2%;
+    margin-top: 2%;
 } */
 
 .card-panel{
@@ -112,6 +112,7 @@ video#bgvid {
 
 .abs {
     position: absolute;
+    margin-top: 5rem;
 }
 
 .card-action {
