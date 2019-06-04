@@ -286,7 +286,7 @@ img {
     }
     #img1{
         background-image: url("../images/IMG_6004.jpg");
-        object-fit: cover;
+        object-fit: contain;
         height: 100vh;
     }
     #section2 {
