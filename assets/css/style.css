@@ -41,7 +41,7 @@ section{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    background-position: right 54% top 50px;
+    /* background-position: right 54% top 50px; */
 }
 
 #about_card {
