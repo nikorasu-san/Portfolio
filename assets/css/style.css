@@ -286,7 +286,6 @@ img {
     }
     #img1{
         background-image: url("../images/IMG_6004.jpg");
-        background-size: cover;
         height: 100vh;
         background-position: right 54% top 50px;
     }
