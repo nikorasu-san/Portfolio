@@ -41,7 +41,7 @@ section{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    /* background-position: right 54% top 50px; */
+    background-position: right 54% top 50px;
 }
 
 #about_card {
@@ -284,6 +284,12 @@ img {
         height: 51vh;
         overflow: auto;
     }
+    #img1{
+        background-image: url("../images/IMG_6004.jpg");
+        background-size: cover;
+        height: 100vh;
+        background-position: right 54% top 50px;
+    }
     #section2 {
         height: 200vh;
     }
@@ -299,9 +305,9 @@ img {
         overflow: hidden;
     }
 
-    #section3 {
+    #section3,#section4 {
         height: 115vh;
-    }
+    }s
     .resume_card {
         height: 80vh;
         overflow:hidden;
