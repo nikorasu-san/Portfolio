@@ -286,6 +286,7 @@ img {
     }
     #img1{
         background-image: url("../images/IMG_6004.jpg");
+        background-size: contain;
         object-fit: contain;
         /* height: 100vh; */
     }
