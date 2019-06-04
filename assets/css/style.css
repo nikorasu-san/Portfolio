@@ -286,7 +286,7 @@ img {
     }
     #img1{
         background-image: url("../images/IMG_6004.jpg");
-        background-size: cover;
+        /* background-size: cover; */
     }
     #section2 {
         height: 200vh;
