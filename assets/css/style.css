@@ -286,8 +286,9 @@ img {
     }
     #img1{
         background-image: url("../images/IMG_6004.jpg");
-        background-size: contain;
+        background-size: cover;
         background-attachment: unset;
+        background-position: unset;
         /* height: 100vh; */
     }
     #section2 {
